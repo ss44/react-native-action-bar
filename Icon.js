@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import {
     ActivityIndicator,
     Image,
@@ -10,7 +12,7 @@ export default class Icon extends Component {
     static propTypes = {
         containerStyle: View.propTypes.style,
         imageStyle: Image.propTypes.style,
-        name: React.PropTypes.string,
+        name: PropTypes.string,
         source: Image.propTypes.source,
     };
 

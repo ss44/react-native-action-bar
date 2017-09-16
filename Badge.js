@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import {
     StyleSheet,
     Text,
@@ -7,13 +9,13 @@ import {
 
 export default class Badge extends Component {
     static propTypes = {
-        backgroundColor: React.PropTypes.string,
-        color: React.PropTypes.string,
-        content: React.PropTypes.oneOfType([
-            React.PropTypes.string,
-            React.PropTypes.number,
+        backgroundColor: PropTypes.string,
+        color: PropTypes.string,
+        content: PropTypes.oneOfType([
+            PropTypes.string,
+            PropTypes.number,
         ]),
-        isLeft: React.PropTypes.bool,
+        isLeft: PropTypes.bool,
     };
 
     static defaultProps = {

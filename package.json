@@ -25,7 +25,8 @@
   "homepage": "https://github.com/Osedea/react-native-action-bar#readme",
   "dependencies": {
     "color": "~1.0.3",
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "prop-types": "^15.5.10"
   },
   "devDependencies": {
     "eslint-config-osedea": "~0.4.2"
